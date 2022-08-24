@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+body {
+	background-color: black;
+}
+
+.login {
+	width: 400px;
+	height: 550px;
+	border: 1px solid #CCC;
+	background: url(https://media.giphy.com/media/10olZ3QsdfXeSY/giphy.gif) center center no-repeat;
+	background-size: cover;
+	margin: 30px auto;
+	border-radius: 20px;
+}
+
+.login .form {
+	width: 100%;
+	height: 100%;
+	padding: 15px 25px;
+}
+
+.login .form img {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.login .form input {
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, .5);
+	border: 1px solid rgba(255, 255, 255, .1);
+	padding: 0 15px;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.login .form input:focus {
+	border: 1px solid rgba(255, 255, 255, .8);
+	outline: none;
+}
+
+.login .form input.submit {
+	background-color: #ffffff;
+	height: 42px;
+	padding: 9px 20px 13px 20px;
+	color: black;
+	font-size: 16px;
+	border-radius: 14px;
+	transition: 0.3s ease-in-out;
+}
+
+.login .form input.submit:hover {
+	background-color: gray;
+	color: white;
+	border: 1px solid white;
+}
+
+::placeholder {
+	color: black;
+}
